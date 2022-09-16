@@ -1,18 +1,16 @@
 *.iml
 .gradle
-.idea
+.idea/
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+!.idea/codeStyleSettings.xml
 .DS_Store
-.externalNativeBuild
+/build
+/captures
+.vscode/
 
-local.properties
-build/*
-captures/*
-app/.externalNativeBuild
-app/build
-xposedmodule/build
-xposedmodule/.externalNativeBuild
-
-ps://github.com/github/gitignore/blob/master/Android.gitignore
+# Taken from Android.gitignore https://github.com/github/gitignore/blob/master/Android.gitignore
 #
 # Built application files
 *.apk
